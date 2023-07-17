@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: deploy-app-gke
-        image: gcr.io/$PROJECT_ID/gcpdevops
+        image: gcr.io/$PROJECT_ID/gcpdevops:latest
         resources:
           limits:
             memory: "128Mi"
