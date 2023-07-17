@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: deploy-app-gke
-        image: gcr.io/terraform-advance-project/gcpdevops:latest
+        image: gcr.io/terraform-advance-project/gcpdevops-dev:latest
         resources:
           limits:
             memory: "128Mi"
