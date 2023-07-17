@@ -9,7 +9,7 @@ steps:
 
 # DEPLOY container image to GKE
 
-- name:  "gcr.io/cloud-builders/gke-deploy"
+- name:  "deployin to GKE cluster"
   args:
   - run
   - --filename= gke.yaml
