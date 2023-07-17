@@ -9,7 +9,7 @@ steps:
 
 # DEPLOY container image to GKE
 
-- name:  "gcr.io/cloud-builders/gke-deploy"
+- name:  "gcr.io/terraform-advance-project/gcpdevops"
   args:
   - run
   - --filename= gke.yaml
