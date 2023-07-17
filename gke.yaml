@@ -15,10 +15,6 @@ spec:
       containers:
       - name: deploy-app-gke
         image: gcr.io/terraform-advance-project/gcpdevops-dev:latest
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 5000
         env:
